@@ -1,0 +1,14 @@
+class abcd:
+    def __init__(self,a,b):
+        self.inf1 = a
+        self.inf2 = b
+    def present(self):
+        if self.inf1>self.inf2:
+            print("a>b")
+        else:
+            print("a<=b")
+        c=self.inf1+self.inf2
+        print("a+b="+str(c))
+        print("a="+str(self.inf1),"b="+str(self.inf2))
+cinf = abcd(4,4)
+cinf.present()
